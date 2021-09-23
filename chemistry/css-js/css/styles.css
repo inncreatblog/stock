@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
+label {
+
+	cursor: pointer;
+
+}
+
 .title {
 
 font-size: 60px;
@@ -17,6 +23,7 @@ font-family: 'Shadows Into Light', cursive;
 text-align: center;
 text-decoration: none;
 letter-spacing: 3px;
+color: #000000;
 
 }
 
