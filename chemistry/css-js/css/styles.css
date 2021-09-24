@@ -4,6 +4,14 @@
     background: transparent;
 }
 
+i::selection {
+    background: transparent;
+}
+
+a::selection {
+    background: transparent;
+}
+
 *::-moz-selection {
     background: transparent;
 }
