@@ -1,4 +1,24 @@
 
+*::selection {
+    background: transparent;
+}
+
+*::-moz-selection {
+    background: transparent;
+}
+
+*::-webkit-selection {
+    background: transparent;
+}
+
+*::-o-selection {
+    background: transparent;
+}
+
+*::-ms-selection {
+    background: transparent;
+}
+
 #container {
   width: 100%;
   margin: auto;

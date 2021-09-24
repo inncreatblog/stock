@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
+*::selection {
+    background: transparent;
+}
+
+*::-moz-selection {
+    background: transparent;
+}
+
+*::-webkit-selection {
+    background: transparent;
+}
+
+*::-o-selection {
+    background: transparent;
+}
+
+*::-ms-selection {
+    background: transparent;
+}
+
 label {
 
 	cursor: pointer;
