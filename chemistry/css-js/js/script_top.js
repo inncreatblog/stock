@@ -29,3 +29,15 @@ $(document).ready(function(){
 
 
 });
+
+$(document).ready(function(){
+
+	$('.ftr-ico').click(function(){
+		$('body, html').animate({
+			scrollTop: '0px'
+		}, 300);
+	});
+
+
+
+});
