@@ -1,5 +1,10 @@
+select { background: transparent; color: transparent; }
 
 *::selection {
+    background: transparent;
+}
+
+i::selection {
     background: transparent;
 }
 
