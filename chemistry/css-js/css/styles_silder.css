@@ -116,6 +116,12 @@ width: 50%;
 	}
 
 	.contenido-principal > * {
-		width: 100%;
+		width: 60%;
 	}
+
+.carousel__contenedor {
+
+	width: 60%;
+
+}
 }

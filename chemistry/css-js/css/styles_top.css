@@ -1,6 +1,6 @@
 .ir-arriba {
 	display:none;
-	padding:10px;
+	padding:15px;
 	background:#1d1d1f;
 	font-size:20px;
 	color:#fff;
@@ -9,4 +9,23 @@
 	bottom:20px;
 	right:20px;
 	border:1px solid #f6f6f6;
+}
+
+@media screen and (max-width: 800px){
+
+.ir-arriba {
+
+	padding:15px;
+	background: transparent;
+	color:#1d1d1f;
+	border:0px solid #f6f6f6;
+}
+
+.fa-chevron-up {
+
+	font-size:30px;
+	-webkit-text-stroke:1px #fff;
+
+}
+
 }
