@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+
 
 *::selection {
     background: transparent;
@@ -133,11 +135,67 @@ float: right;
 }
 
 
+/*__________PERFIL__________*/
+
+.perfil {
+
+	margin-left: 2%;
+	align-items: center;
+	display: flex;
+	border: 0px solid #000000;
+	float: left;
+	margin-right: 2%;
+
+}
+
+.perfil_image {
+
+	width: 40px;
+	margin-right: 2%;
+
+}
+
+.perfil_font {
+
+	font-family: 'KoHo', sans-serif;
+	color: #1e1e20;
+	font-size: 20px;
+
+}
+
+.perfil_rank {
+
+	font-family: 'KoHo', sans-serif;
+	color: #ff0000;
+	font-size: 20px;
+
+}
+
+.perfil_button {
+
+	float: left;
+	align-items: center;
+	border: 0px solid #000000;
+	height: 43px;
+}
+
 
 @media screen and (max-width: 1220px){
 
+.perfil {
+
+	float: right;
+
+}
+
+.perfil_button {
+
+	float: right;
+
+}
+
 .container_top_img {
-    width: 300px;
+    width: 600px;
     height: 200px;
     overflow: hidden;
     margin: 10px;
@@ -207,6 +265,53 @@ text-align: justify;
 
 }
 
+
+}
+
+@media screen and (max-width: 800px){
+
+.container_top_img {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+    position: relative;
+}
+
+.perfil {
+
+	float: none;
+	justify-content: center;
+
+}
+
+.perfil_font {
+
+	font-size: 15px;
+
+}
+
+.perfil_rank {
+
+	font-size: 15px;
+
+}
+
+.perfil_button {
+
+	float: none;
+	align-items: center;
+	justify-content: center;
+	margin-left: 2%;
+	margin-right: 2%;
+
+}
+
+.btn-1 {
+
+	font-size: 11px;
+
+}
 
 }
 
